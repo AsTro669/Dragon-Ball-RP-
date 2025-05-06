@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SKR Dragon Ball RP</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #0b0c2a, #1c1d47);
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: rgba(0, 0, 0, 0.6);
+      box-shadow: 0 0 10px #ffcc00;
+    }
+    header img {
+      height: 50px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+    nav ul li {
+      position: relative;
+    }
+    nav ul li:hover ul {
+      display: block;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #ffcc00;
+      font-weight: bold;
+    }
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: #1e1f3a;
+      padding: 0.5rem;
+      border-radius: 5px;
+      z-index: 1000;
+    }
+    nav ul li ul li {
+      padding: 0.3rem 0;
+    }
+    .hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: url('https://wallpapercave.com/wp/wp7159291.jpg') no-repeat center center/cover;
+  color: white;
+  text-shadow: 2px 2px 8px black;
+  box-shadow: inset 0 -100px 100px rgba(0, 0, 0, 0.7);
+}
+    .hero h1 {
+      font-size: 3rem;
+      color: #ffcc00;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+    .aura-effect {
+      animation: flicker 1.5s infinite;
+      box-shadow: 0 0 15px #00f6ff, 0 0 25px #00f6ff;
+    }
+    @keyframes flicker {
+      0%, 100% { box-shadow: 0 0 10px #00f6ff, 0 0 20px #00f6ff; }
+      50% { box-shadow: 0 0 25px #00f6ff, 0 0 35px #00f6ff; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo SKR" />
+    <nav>
+      <ul>
+        <li><a href="#">Boutique</a></li>
+        <li>
+          <a href="#">Wiki</a>
+          <ul>
+            <li><a href="#">Lore</a></li>
+            <li><a href="#">Règlement RP</a></li>
+            <li><a href="#">Règlement HRP</a></li>
+            <li><a href="#">Actualités RP</a></li>
+            <li><a href="#">Saga Dragon Ball</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Nos Réseaux</a>
+          <ul>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">TikTok</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Discord</a>
+          <ul>
+            <li><a href="#">Serveur Principal</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section class="hero aura-effect">
+    <h1>Bienvenue sur SKR Dragon Ball RP</h1>
+    <p>Plongez dans un univers RP unique inspiré de Dragon Ball, où chaque joueur forge son propre destin à travers les sagas les plus épiques !</p>
+  </section>
+</body>
+</html>
